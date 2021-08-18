@@ -197,7 +197,7 @@ For example: evenOddNumericValues(['Gregor', 2, 4, 1]) returns ['even', 'even', 
 
 const evenOddNumericValues = (arr) => {
   const numbers = arr.filter((element) => {
-    if (!isNaN(element)) {
+    if (typeof element === 'number') {
       return element;
     }
   });
