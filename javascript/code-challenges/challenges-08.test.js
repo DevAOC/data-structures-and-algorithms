@@ -93,7 +93,7 @@ Write a function named containsWorld that takes in a string or number of any len
 
 ------------------------------------------------------------------------------------------------ */
 
-const containsWorld = (input) => /(world)/g.test(input);
+const containsWorld = (input) => /world/g.test(input);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
