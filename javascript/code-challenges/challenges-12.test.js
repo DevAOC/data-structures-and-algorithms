@@ -36,7 +36,7 @@ Write a function named hasNumber that uses a regular expression pattern to deter
 If it does, return true. If not, return false.
 ------------------------------------------------------------------------------------------------ */
 
-const hasNumber = (string) => /[a-zA-z]{1,}\d{1,}/.test(string);
+const hasNumber = (string) => /[a-zA-z]+\d+/.test(string);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
